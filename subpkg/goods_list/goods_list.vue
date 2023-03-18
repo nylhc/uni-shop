@@ -90,5 +90,7 @@
 </script>
 
 <style lang="scss">
-
+  .goods-list {
+    background-color: #fff;
+  }
 </style>
