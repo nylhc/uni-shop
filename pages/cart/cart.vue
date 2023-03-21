@@ -79,21 +79,21 @@
 </script>
 
 <style lang="scss">
+  .cart-container {
+    padding-bottom: 50px;
+  }
+
   .cart-title {
     height: 40px;
     display: flex;
     align-items: center;
-    font-size: 14px;
     padding-left: 5px;
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #EFEFEF;
 
     .cart-title-text {
+      font-size: 14px;
       margin-left: 10px;
     }
-  }
-
-  .cart-container {
-    padding-bottom: 50px;
   }
 
   .empty-cart {

@@ -13,14 +13,9 @@
       <view class="goods-info-box">
         <!-- 商品价格 -->
         <view class="goods-price">￥{{goods.goods_price | tofixed}}</view>
+        <!-- 商品数量 -->
+        <uni-number-box :min="1" :value="goods.goods_count" @change="numChangeHandler" v-if="showNum"></uni-number-box>
       </view>
-    </view>
-
-    <view class="goods-info-box">
-      <!-- 商品价格 -->
-      <view class="goods-price">￥{{goods.goods_price | tofixed}}</view>
-      <!-- 商品数量 -->
-      <uni-number-box :min="1" :value="goods.goods_count" @change="numChangeHandler" v-if="showNum"></uni-number-box>
     </view>
   </view>
 </template>
